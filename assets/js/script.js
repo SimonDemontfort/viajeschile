@@ -31,6 +31,7 @@ var carousel = new bootstrap.Carousel(myCarousel)
       }
     });
   });
+  
 
   $(".card").hover(
     function () {
