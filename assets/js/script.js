@@ -1,6 +1,5 @@
 $(document).ready(function () {
 
-
     var $root = $('html, body');
 
 $('a[href^="#"]').click(function () {
@@ -10,8 +9,6 @@ $('a[href^="#"]').click(function () {
 
     return false;
 });
-
-
 
 var myCarousel = document.querySelector('#myCarousel')
 var carousel = new bootstrap.Carousel(myCarousel)
